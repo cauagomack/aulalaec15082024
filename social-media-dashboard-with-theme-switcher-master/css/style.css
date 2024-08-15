@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,700;&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  font-family: Inter;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  width: 1440px;
+  height: 800px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+#divisao_titulo {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  height: 304px;
+}
+
+#smd {
+  margin-left: 150px;
+}
+
+#total {
+  background-color: hsl(225, 100%, 98%);
+  margin-top: -263px;
+  margin-left: 150px;
+  margin-bottom: 105px;
+}
+
+#dkm {
+  padding-left: 714px;
+  margin-top: 25px;
+}
+
+#divisao_indicadores {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#card_face {
+  margin-top: 45px;
+  background-color: hsl(227, 47%, 96%);
+}
+
+#card_borda_face {
+  height: 5px;
+  background-color: hsl(208, 92%, 53%);
+}
+
+#card_conteudo_face {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card {
+  margin-top: 45px;
+  background-color: hsl(227, 47%, 96%);
+  height: 211px;
+  width: 250px;
+}
+
+.card_cont {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.numero {
+  font-size: 14;
+}
+
+.seguidores_a {
+  color: hsl(163, 72%, 41%);
+}
+
+.seguidores_d {
+  color: hsl(356, 69%, 56%);
+}
+
+#card_borda_twiter {
+  height: 5px;
+  background-color: hsl(203, 89%, 53%);
+}
+
+#card_borda_instagram {
+  height: 5px;
+  background-color: hsl(37, 97%, 70%);
+}
+
+#card_borda_youtube {
+  height: 5px;
+  background-color: hsl(348, 97%, 39%);
+}/*# sourceMappingURL=style.css.map */
